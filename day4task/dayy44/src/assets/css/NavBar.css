@@ -1,0 +1,44 @@
+.box-model{
+    text-align: center;
+    color:peachpuff;
+    font-size: 20px;
+    border: 12px black;
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type:none;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+li{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px;
+}
+
+li:hover{
+    background-color: white;
+    color:cadetblue;
+    border-radius: 5px;
+}
+#idEg{
+    color:blue;
+    font-size: 12px;
+}
+
+.mt-box{
+    height: 390px;
+    background-color: white;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(94, 87, 87);
+    color:antiquewhite;
+    padding: 5px;
+}
