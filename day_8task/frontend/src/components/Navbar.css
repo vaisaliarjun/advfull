@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: #2563eb;
+    padding: 15px 0;
+    font-family: 'Arial', sans-serif;
+    z-index: 1000;  /* Makes sure the navbar is on top of other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 50px 120px ;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+  }
+  
+  .navbar .active {
+    background-color: #1d4ed8;
+  }
+  
