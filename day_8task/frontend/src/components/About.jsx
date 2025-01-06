@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <Navbar />
       <h2>About Us</h2>
-      <p>Learn more about Expense Splitter and how it works.</p>
+      <p>Learn more about Budget Planner and how it works.</p>
     </div>
   );
 };
