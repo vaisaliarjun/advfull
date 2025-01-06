@@ -6,8 +6,8 @@ const Home = () => {
     <div className="home-container">
       <Navbar />
       <header>
-        <h1>Welcome to Expense Splitter</h1>
-        <p>Split your expenses easily with friends and family!</p>
+        <h1>Welcome to Personal Planner</h1>
+        <p>Split your plan easily with friends and family!</p>
       </header>
     </div>
   );
