@@ -3,14 +3,15 @@ var app = express();
 var mdb = require("mongoose");
 var cors=require('cors');
 var User = require("./models/splitter");
+var env =require('dotenv');
 app.use(express.json())
 app.use(cors());
 const PORT = 3001;
-
+env.config();
 //mongodb string=mongodb://localhost:27017/
 //mongodb string =mongodb://127.0.1:27017/
 mdb
-  .connect("mongodb://127.0.0.1:27017/project")
+  .connect(process.env.MONGO_URL)
   .then(() => {
     console.log("mongodb connection established successfully..");
   })
